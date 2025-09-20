@@ -1,1 +1,19 @@
-{\n  \"version\": 2,\n  \"builds\": [\n    {\n      \"src\": \"client/dist/**\",\n      \"use\": \"@vercel/static\"\n    },\n    {\n      \"src\": \"server/index.ts\",\n      \"use\": \"@vercel/node\",\n      \"config\": {\n        \"includeFiles\": [\"server/**\", \"shared/**\"]\n      }\n    }\n  ],\n  \"routes\": [\n    {\n      \"src\": \"/api/(.*)\",\n      \"dest\": \"server/index.ts\"\n    },\n    {\n      \"handle\": \"filesystem\"\n    },\n    {\n      \"src\": \"/(.*)\",\n      \"dest\": \"client/dist/index.html\"\n    }\n  ],\n  \"outputDirectory\": \"client/dist\"\n}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "dist/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "dist/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "dist/index.js"
+    }
+  ]
+}
