@@ -54,9 +54,36 @@ export default async function handler(req: any, res: any) {
         };
         messages.push(userMessage);
         
-        // Simple AI response
-        const aiContent = `You said: "${content}". This is a demo response from your AI chatbot!`;
-        
+// Call OpenAI API
+let aiContent;
+try {
+  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'gpt-4o-mini',
+      messages: [
+        { role: 'system', content: 'You are a helpful assistant.' },
+        { role: 'user', content }
+      ],
+      max_tokens: 150,
+      temperature: 0.7,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`OpenAI API error: ${response.status}`);
+  }
+
+  const data = await response.json();
+  aiContent = data.choices[0]?.message?.content || 'Sorry, I could not generate a response.';
+} catch (error) {
+  console.error('OpenAI API Error:', error);
+  aiContent = 'Sorry, I encountered an error while processing your request.';
+}
         const aiMessage = {
           id: generateId(),
           content: aiContent,
