@@ -1,4 +1,4 @@
-// Shared in-memory storage for all API endpoints
+// Shared in-memory storage for all API endpoints - Updated
 let messages: any[] = [];
 
 function generateId() {
