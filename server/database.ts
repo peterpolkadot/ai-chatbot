@@ -1,16 +1,23 @@
 import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
-import { messages, users } from "@shared/schema";
+import { eq } from "drizzle-orm";
+import { messages, users } from "../shared/schema";
 
-if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL environment variable is required");
+// Check for DATABASE_URL when actually using the database
+
+// Initialize database connection
+function initializeDb() {
+  if (!process.env.DATABASE_URL) {
+    throw new Error("DATABASE_URL environment variable is required");
+  }
+  const sql = neon(process.env.DATABASE_URL);
+  return drizzle(sql, { schema: { messages, users } });
 }
 
-const sql = neon(process.env.DATABASE_URL);
-export const db = drizzle(sql, { schema: { messages, users } });
+export const db = initializeDb();
 
 // Database storage implementation
-import { type User, type InsertUser, type Message, type InsertMessage } from "@shared/schema";
+import { type User, type InsertUser, type Message, type InsertMessage } from "../shared/schema";
 
 export class DatabaseStorage {
   async getUser(id: string): Promise<User | undefined> {
@@ -41,5 +48,3 @@ export class DatabaseStorage {
     await db.delete(messages);
   }
 }
-
-import { eq } from "drizzle-orm";

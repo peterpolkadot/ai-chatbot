@@ -1,7 +1,7 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { storage } from "./storage";
 import { getChatResponse } from "./openai";
-import { insertMessageSchema } from "@shared/schema";
+import { insertMessageSchema } from "../shared/schema";
 
 export function createApp() {
   const app = express();

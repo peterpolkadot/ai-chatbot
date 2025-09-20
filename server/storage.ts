@@ -1,4 +1,4 @@
-import { type User, type InsertUser, type Message, type InsertMessage } from "@shared/schema";
+import { type User, type InsertUser, type Message, type InsertMessage } from "../shared/schema";
 import { randomUUID } from "crypto";
 import { DatabaseStorage } from "./database";
 
