@@ -1,0 +1,84 @@
+ep 20 12:56:13.65
+POST
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/chat
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:56:10.81
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:51:43.44
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:51:34.67
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:50:34.39
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:50:02.02
+GET
+500
+lucky-lucy-eamv6la8d-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:50:01.93
+GET
+500
+lucky-lucy-eamv6la8d-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue. Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:49:53.57
+POST
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/chat
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:49:50.68
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:42:36.75
+POST
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/chat
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:42:34.44
+POST
+500
+lucky-lucy-k6jmx783u-peterpolkadots-projects.vercel.app
+/api/chat
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:42:32.03
+GET
+500
+lucky-lucy-k6jmx783u-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:42:31.66
+GET
+500
+lucky-lucy-git-main-peterpolkadots-projects.vercel.app
+/api/messages
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/createApp' imported from /var/task/api/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/createApp' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Sep 20 12:42:06.75
+POST
+500
+lucky-lucy.vercel.app
+/api/chat
+Error [ERR_MODULE_NOT_FOUND]: Cannot find m
